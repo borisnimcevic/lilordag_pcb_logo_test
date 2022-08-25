@@ -4124,6 +4124,13 @@
       ) (layer "F.Mask") (width 0.01) (fill solid) (tstamp e6359c9d-0430-4f10-99ef-42825cdd20a0))
   )
 
-  (gr_rect (start 30 30) (end 129 129) (layer "Edge.Cuts") (width 0.1) (fill none) (tstamp 3ed1d38c-28e0-466c-8443-4f7318585b48))
+  (gr_line locked (start 28 35) (end 28 125) (layer "Edge.Cuts") (width 0.15) (tstamp 193f77a6-a3b3-4fbe-bf5e-c62a344de776))
+  (gr_line locked (start 32 30) (end 122 30) (layer "Edge.Cuts") (width 0.15) (tstamp 495ceee7-3440-4259-a272-408fe1619e29))
+  (gr_arc locked (start 32 130) (mid 28.964466 128.328427) (end 28 125) (layer "Edge.Cuts") (width 0.15) (tstamp ca49722a-a05f-4c62-a2c4-c2bdf53f765a))
+  (gr_line locked (start 32 130) (end 122 130) (layer "Edge.Cuts") (width 0.15) (tstamp e615a686-b2ff-4d89-b937-080d7574a215))
+  (gr_arc locked (start 126 125) (mid 125.035534 128.328427) (end 122 130) (layer "Edge.Cuts") (width 0.15) (tstamp eca17fb1-4d69-4818-bbea-76465f424b43))
+  (gr_line locked (start 126 35) (end 126 125) (layer "Edge.Cuts") (width 0.15) (tstamp edb80847-3bb1-459d-82a3-8ed110450cac))
+  (gr_arc locked (start 28 35) (mid 28.964466 31.671573) (end 32 30) (layer "Edge.Cuts") (width 0.15) (tstamp f04a0164-73ac-4b07-a4d3-28d93534bdce))
+  (gr_arc locked (start 122 30) (mid 125.035534 31.671573) (end 126 35) (layer "Edge.Cuts") (width 0.15) (tstamp f58161ac-2e97-4629-9b0a-ef229e1c29d8))
 
 )
