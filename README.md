@@ -37,3 +37,5 @@ Color/shades options and combinations (for the green pcb):
 |Component  |Quantity |Link   |
 |-----      |-----    |-----  |
 |LDO 3.3V 600mA|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/AP7366-33W5-7/9867322) |
+|MMBT3906-7-F PNP Transistor|2        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/MMBT3906-7-F/770797) |
+|Transistor SOT-23 BC846|2|[digikey](https://www.digikey.se/en/products/detail/nexperia-usa-inc/BC846B-235/1232263) |
