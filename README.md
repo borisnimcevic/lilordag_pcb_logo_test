@@ -13,7 +13,7 @@ Color/shades options and combinations (for the green pcb):
 | gold/silver             |       |  X          |            |             |       |
 | dark green              |       |             |       X    |             |       |
 | light green             |       |             |            | X           |       |
-|clear                    |       |             |            |             | X     |
+| clear                   |       |             |            |             | X     |
 
 
 ## Bill Of Materials
@@ -27,3 +27,13 @@ Color/shades options and combinations (for the green pcb):
 |Transistor SOT-23 BC846|2|[digikey](https://www.digikey.se/en/products/detail/nexperia-usa-inc/BC846B-235/1232263) |
 |Red LED 0603|2|[digikey](https://www.digikey.se/en/products/detail/ams-osram-usa-inc/LS-Q976-NR-1/1227986) |
 |Slide switch|3|[digikey](https://www.digikey.se/en/products/detail/c-k/PCM12SMTR/1640112?utm_medium=aggregator&utm_source=snapeda&utm_campaign=buynow) |
+
+### ESP32-C3 shenanigans
+|Component  |Quantity |Link   |
+|-----      |-----    |-----  |
+|ESP32-C3|1 |[digikey](https://www.digikey.se/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/14553031) |
+
+### Common
+|Component  |Quantity |Link   |
+|-----      |-----    |-----  |
+|LDO 3.3V 600mA|1        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/AP7366-33W5-7/9867322) |
