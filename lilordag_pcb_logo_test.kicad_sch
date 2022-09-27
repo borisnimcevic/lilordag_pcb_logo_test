@@ -2506,9 +2506,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7810482c-7439-44c6-93c9-829427e6705f)
   )
-  (text "Add some rever polarity protection" (at 110.49 52.07 90)
+  (text "TODO:\n- add reverse polarity protection\n- add test points\n- add ESP with neopixels"
+    (at 29.21 81.915 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c495ec68-0b37-4295-84ef-9d79cb2b4e77)
+    (uuid a3f250ea-533a-4982-8b93-fea040567a06)
   )
   (text "Blink Blink" (at 115.57 17.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
