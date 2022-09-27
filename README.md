@@ -40,3 +40,4 @@ Color/shades options and combinations (for the green pcb):
 |MMBT3906-7-F PNP Transistor|2        |[digikey](https://www.digikey.se/en/products/detail/diodes-incorporated/MMBT3906-7-F/770797) |
 |Transistor SOT-23 BC846|2|[digikey](https://www.digikey.se/en/products/detail/nexperia-usa-inc/BC846B-235/1232263) |
 |USB-C|1        |[digikey](https://www.digikey.se/en/products/detail/gct/USB4105-GF-A/11198441) |
+|CR2032 battery holder - BK-912-TR|2        |[digikey](https://www.digikey.se/en/products/detail/mpd-memory-protection-devices/BK-912-TR/2077831?s=N4IgTCBcDaIEIGkC0BOAjGJBhAKkgcgCIgC6AvkA) |
