@@ -31,7 +31,7 @@ Color/shades options and combinations (for the green pcb):
 ### ESP32-C3 shenanigans
 |Component  |Quantity |Link   |
 |-----      |-----    |-----  |
-|ESP32-C3|1 |[digikey](https://www.digikey.se/en/products/detail/espressif-systems/ESP32-C3-WROOM-02-N4/14553031) |
+|ESP32-C3-MINI-1-N4-A|1 |[digikey](https://www.digikey.se/en/products/detail/espressif-systems/ESP32-C3-MINI-1-N4-A/15817506) |
 
 ### Common
 |Component  |Quantity |Link   |
