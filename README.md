@@ -41,3 +41,5 @@ Color/shades options and combinations (for the green pcb):
 |Transistor SOT-23 BC846|2|[digikey](https://www.digikey.se/en/products/detail/nexperia-usa-inc/BC846B-235/1232263) |
 |USB-C|1        |[digikey](https://www.digikey.se/en/products/detail/gct/USB4105-GF-A/11198441) |
 |CR2032 battery holder - BK-912-TR|2        |[digikey](https://www.digikey.se/en/products/detail/mpd-memory-protection-devices/BK-912-TR/2077831?s=N4IgTCBcDaIEIGkC0BOAjGJBhAKkgcgCIgC6AvkA) |
+|P-Channel MOSFET SSM3J56MFV,L3F|1        |[digikey](https://www.digikey.se/en/products/detail/toshiba-semiconductor-and-storage/SSM3J56MFV-L3F/4305160) |
+|Zener diode MMSZ5233B-AU_R1_000A1|1        |[digikey](https://www.digikey.se/en/products/detail/panjit-international-inc/MMSZ5233B-AU-R1-000A1/15796616) |
