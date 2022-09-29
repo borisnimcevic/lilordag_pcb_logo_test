@@ -43,3 +43,17 @@ Color/shades options and combinations (for the green pcb):
 |CR2032 battery holder - BK-912-TR|2        |[digikey](https://www.digikey.se/en/products/detail/mpd-memory-protection-devices/BK-912-TR/2077831?s=N4IgTCBcDaIEIGkC0BOAjGJBhAKkgcgCIgC6AvkA) |
 |P-Channel MOSFET SSM3J56MFV,L3F|1        |[digikey](https://www.digikey.se/en/products/detail/toshiba-semiconductor-and-storage/SSM3J56MFV-L3F/4305160) |
 |Zener diode MMSZ5233B-AU_R1_000A1|1        |[digikey](https://www.digikey.se/en/products/detail/panjit-international-inc/MMSZ5233B-AU-R1-000A1/15796616) |
+
+
+
+## TODO:
+- ESP with neopixels
+	- reset button
+	- JTAG
+	- UART
+	- neopixels
+	- temp. sensor
+- test points
+- connect everything on the PCB
+- test shining lights through the PCB
+
