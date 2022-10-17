@@ -22,9 +22,15 @@ Color/shades options and combinations (for the green pcb):
 |Component  |Quantity |Link   |
 |-----      |-----    |-----  |
 |Ceramic Capacitor 0603 470nF   |2 |[digikey](https://www.digikey.se/en/products/detail/samsung-electro-mechanics/CL10B474KA8NNWC/3887742) |
-|Red LED 0603|2|[digikey](https://www.digikey.se/en/products/detail/ams-osram-usa-inc/LS-Q976-NR-1/1227986) |
-|Resistor 0603 470k|2|[digikey](https://www.digikey.se/en/products/detail/stackpole-electronics-inc/RMCF0603FT470K/1761140) |
-|Resistor 0603 470|4 |[digikey](https://www.digikey.se/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT0603MD4700DP500/2092094) |
+|Ceramic Capacitor 0603 10nF   |1 |[digikey](https://www.digikey.se/en/products/detail/kemet/C0603C102M3RECAUTO/6826026) |
+|Ceramic Capacitor 0603 100pF   |1 |[digikey](https://www.digikey.se/en/products/detail/american-technical-ceramics/600S101KT250XT/3908988) |
+|Red LED 0603| 20| [digikey](https://www.digikey.se/en/products/detail/liteon/LTST-C191KRKT/386837) |
+|Green LED 0603| 20| [digikey](https://www.digikey.se/en/mylists/list/9087QGF5WM) |
+|Resistor 0603 470k| 2| [digikey](https://www.digikey.se/en/products/detail/yageo/RC0603JR-07470KL/726792) |
+|Resistor 0603 470|40 |[digikey](https://www.digikey.se/en/products/detail/vishay-beyschlag-draloric-bc-components/MCT0603MD4700DP500/2092094) |
+|Resistor 0603 1k 5%| 4 |[digikey](https://www.digikey.se/en/products/detail/walsin-technology-corporation/WR06X102-JTL/13241138) |
+|Resistor 0603 10k 5%| 3 |[digikey](https://www.digikey.se/en/products/detail/te-connectivity-passive-product/CRG0603J10K/2389998) |
+|Resistor 0603 100k 5%| 2 |[digikey](https://www.digikey.se/en/products/detail/yageo/RC0603FR-07100KL/726889) |
 |Slide switch|3|[digikey](https://www.digikey.se/en/products/detail/c-k/PCM12SMTR/1640112?utm_medium=aggregator&utm_source=snapeda&utm_campaign=buynow) |
 |Transistor SOT-23 BC846|2|[digikey](https://www.digikey.se/en/products/detail/nexperia-usa-inc/BC846B-235/1232263) |
 
