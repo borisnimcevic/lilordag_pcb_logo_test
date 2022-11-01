@@ -431,6 +431,10 @@
     [
       "ade9b4e0-52ce-45cf-8825-c35ed92dd0f1",
       "LEDs"
+    ],
+    [
+      "49189f38-fe7d-4fc6-977e-6829812741f7",
+      "RGB-LEDs"
     ]
   ],
   "text_variables": {}
