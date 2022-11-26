@@ -2677,9 +2677,9 @@
       (net 83 "Net-(TP16-Pad1)") (pinfunction "DIN") (pintype "input") (tstamp cbc4500b-cc51-4e9c-9f94-754458632282))
   )
 
-  (footprint "pcb_logos:tower-complex-golden-stars" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-golden-stars" locked (layer "F.Cu")
     (tedit 0) (tstamp 29d3e480-b79a-4455-ad99-db798c5bede8)
-    (at 101.322962 106.750281)
+    (at 100.8 114)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5655,7 +5655,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 2c256b59-d6ac-43de-9434-2e1f567cf1e0)
-    (at 43.18 121.666)
+    (at 43 123.5)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
@@ -6620,7 +6620,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 4b933218-099a-4e80-9344-e438e4869e99)
-    (at 50.8 121.666)
+    (at 47.5 123.5)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
@@ -7798,9 +7798,9 @@
     )
   )
 
-  (footprint "pcb_logos:logo-tower-simple-light-green" (layer "F.Cu")
+  (footprint "pcb_logos:logo-tower-simple-light-green" locked (layer "F.Cu")
     (tedit 0) (tstamp 5b07d9d8-8255-4d35-b444-d78af12b5cb4)
-    (at 70.612 53.34)
+    (at 70.86 53)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -9491,7 +9491,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 6eb25aec-96e9-4133-8876-e2ee02c4f8ae)
-    (at 54.61 121.666)
+    (at 52 123.5)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
@@ -9535,7 +9535,7 @@
 
   (footprint "pcb_logos:logo-tower-simple-gold" (layer "F.Cu")
     (tedit 0) (tstamp 6eea40bb-cca4-4cd9-aed5-57e1e74430af)
-    (at 95.25 53.086)
+    (at 93.64 53)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -14241,7 +14241,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 8707b33d-8956-4f58-8468-ee30abed5df3)
-    (at 61.722 121.666)
+    (at 57.25 123.5)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
@@ -14441,9 +14441,9 @@
     )
   )
 
-  (footprint "pcb_logos:logo-tower-simple-white" (layer "F.Cu")
+  (footprint "pcb_logos:logo-tower-simple-white" locked (layer "F.Cu")
     (tedit 0) (tstamp 989cbb7b-bd4f-4a4c-b5ea-f522bf0c1135)
-    (at 48.122417 53.10307)
+    (at 48.122417 53)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -19005,7 +19005,7 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp b24ebc16-058e-4844-bd78-cdf86fe4031a)
-    (at 65.786 121.666)
+    (at 63 123.5)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
@@ -20696,9 +20696,9 @@
     )
   )
 
-  (footprint "pcb_logos:tower-complex-light-green-stars" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-light-green-stars" locked (layer "F.Cu")
     (tedit 0) (tstamp d22b64e3-6595-4c58-bf4f-ed2f8671ac13)
-    (at 54.332962 106.750281)
+    (at 55.1 114)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -25134,9 +25134,9 @@
       ) (layer "F.SilkS") (width 0.01) (fill solid) (tstamp f3ca2c7f-13be-46e1-b72f-050cc22b7655))
   )
 
-  (footprint "pcb_logos:logo-tower-simple-clear" (layer "F.Cu")
+  (footprint "pcb_logos:logo-tower-simple-clear" locked (layer "F.Cu")
     (tedit 0) (tstamp f3a1bf2e-9e94-4f41-a90e-e6007239e88c)
-    (at 115.824 53.086)
+    (at 116.4 53)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -28139,7 +28139,7 @@
     (model "${KIPRJMOD}/parts/BK-912-TR-batt-holder/BK-912-TR--3DModel-STEP-56544.STEP"
       (offset (xyz 0 0 4.3))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz -90 0 180))
     )
   )
 
@@ -30919,10 +30919,10 @@
   (gr_arc locked (start 122 30) (mid 125.035534 31.671573) (end 126 35) (layer "Edge.Cuts") (width 0.15) (tstamp f58161ac-2e97-4629-9b0a-ef229e1c29d8))
 
   (via (at 79.955044 44.281218) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 0) (tstamp ce647296-6b24-45b5-a499-5acad9f15a8f))
-  (segment (start 89.015 39.5) (end 89.015 36.691) (width 0.5) (layer "B.Cu") (net 65) (tstamp 4c7be78c-432a-4fcc-93f3-26eef705cac8))
-  (segment (start 86.868 34.544) (end 60.956 34.544) (width 0.5) (layer "B.Cu") (net 65) (tstamp 525ec349-3904-4c62-ba74-a3e2d98c0385))
-  (segment (start 60.956 34.544) (end 56 39.5) (width 0.5) (layer "B.Cu") (net 65) (tstamp 9e1aa3dd-8ecb-49d2-9e83-3f9ea073f781))
-  (segment (start 89.015 36.691) (end 86.868 34.544) (width 0.5) (layer "B.Cu") (net 65) (tstamp eef427aa-1a3e-4bd4-8492-a68c90a5798e))
+  (via (at 85.09 115.062) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 54) (tstamp 193e6d71-0155-4159-9b49-236b4e054b06))
+  (via (at 75.692 39.37) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 54) (tstamp b61f9f04-ba82-4c71-9a85-13392f42a48f))
+  (via (at 77.978 39.37) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 55) (tstamp 348daea6-275f-45c6-b263-2c611ef6c081))
+  (via (at 85.09 117.094) (size 0.8) (drill 0.4) (layers "F.Cu" "B.Cu") (free) (net 55) (tstamp b61b4713-b3ae-4b06-84e9-582052bfa8f7))
 
   (zone locked (net 15) (net_name "GND") (layers F&B.Cu) (tstamp 1f965750-758b-4a89-bce3-8d41db77c04f) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
