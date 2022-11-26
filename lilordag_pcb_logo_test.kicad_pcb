@@ -1515,7 +1515,7 @@
 
   (footprint "pcb_logos:candy-simple-white" (layer "F.Cu")
     (tedit 0) (tstamp 1bd605a2-ef87-402e-9dc3-41f28110a582)
-    (at 49.201917 73.168839)
+    (at 49.45 73.168839)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -19049,7 +19049,7 @@
 
   (footprint "pcb_logos:tower-complex-white" (layer "F.Cu")
     (tedit 0) (tstamp ba54835b-66e2-4f80-973a-498a3ca5c727)
-    (at 43.18 87.376)
+    (at 43.45 87.376)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
