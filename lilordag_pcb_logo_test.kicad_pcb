@@ -2675,6 +2675,11 @@
       (net 15 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp ff09e795-d248-4cfa-ad1d-1f364620d0e1))
     (pad "4" smd rect locked (at 2.45 -1.65 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 83 "Net-(TP16-Pad1)") (pinfunction "DIN") (pintype "input") (tstamp cbc4500b-cc51-4e9c-9f94-754458632282))
+    (model "${KIPRJMOD}/parts/WS2812B/WS2812B-B.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "pcb_logos:tower-complex-golden-stars" locked (layer "F.Cu")
@@ -6486,7 +6491,7 @@
 
   (footprint "WS2812B:LED_WS2812B-B" (layer "F.Cu")
     (tedit 635FE4A8) (tstamp 406b85c5-a5ff-4905-a461-f1f574f33e8e)
-    (at 53.848 97.79)
+    (at 53.848 103.25)
     (property "MANUFACTURER" "Worldsemi")
     (property "MAXIMUM_PACKAGE_HIEGHT" "1.62 mm")
     (property "PARTREV" "5")
@@ -6528,6 +6533,11 @@
       (net 15 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 92f2fac6-7f55-40c2-a127-2473c415ef3b))
     (pad "4" smd rect locked (at 2.45 -1.65 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 103 "RGB") (pinfunction "DIN") (pintype "input") (tstamp 2cafd385-c5c4-431c-b6d1-91fea04c6f7d))
+    (model "${KIPRJMOD}/parts/WS2812B/WS2812B-B.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
@@ -8649,7 +8659,7 @@
 
   (footprint "WS2812B:LED_WS2812B-B" (layer "F.Cu")
     (tedit 635FE4A8) (tstamp 691227c0-a1f3-4426-bcb8-b0ec561f0fd7)
-    (at 100.076 97.536)
+    (at 100.076 103.25)
     (property "MANUFACTURER" "Worldsemi")
     (property "MAXIMUM_PACKAGE_HIEGHT" "1.62 mm")
     (property "PARTREV" "5")
@@ -8691,6 +8701,11 @@
       (net 15 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp 9d0757f3-cbc0-40d8-972d-51ec27b5f3c9))
     (pad "4" smd rect locked (at 2.45 -1.65 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 104 "Net-(TP17-Pad1)") (pinfunction "DIN") (pintype "input") (tstamp 54094c44-3fd6-4639-8ef6-dd37fae6ec65))
+    (model "${KIPRJMOD}/parts/WS2812B/WS2812B-B.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
@@ -15294,6 +15309,11 @@
       (net 15 "GND") (pinfunction "VSS") (pintype "power_in") (tstamp e9c428eb-50a1-40ed-b30c-43343a03348d))
     (pad "4" smd rect locked (at 2.45 -1.65 180) (size 1.5 0.9) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 79 "Net-(TP15-Pad1)") (pinfunction "DIN") (pintype "input") (tstamp 429bab96-db96-4af3-8a00-8c14046fa98f))
+    (model "${KIPRJMOD}/parts/WS2812B/WS2812B-B.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "pcb_logos:candy-simple-gold" locked (layer "F.Cu")
