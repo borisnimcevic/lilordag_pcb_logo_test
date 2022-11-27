@@ -509,9 +509,9 @@
     )
   )
 
-  (footprint "pcb_logos:candy-simple-light-green" (layer "F.Cu")
+  (footprint "pcb_logos:candy-simple-light-green" locked (layer "F.Cu")
     (tedit 0) (tstamp 162bea69-adda-48bf-a9c4-0a578e99191a)
-    (at 71.628 73.152)
+    (at 72.1 77.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -1513,9 +1513,9 @@
       ) (layer "F.Cu") (width 0.01) (fill solid) (tstamp c974a7c5-442c-48b0-a4ae-34e0823f68ae))
   )
 
-  (footprint "pcb_logos:candy-simple-white" (layer "F.Cu")
+  (footprint "pcb_logos:candy-simple-white" locked (layer "F.Cu")
     (tedit 0) (tstamp 1bd605a2-ef87-402e-9dc3-41f28110a582)
-    (at 49.45 73.168839)
+    (at 49.45 77.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -5697,9 +5697,9 @@
     )
   )
 
-  (footprint "pcb_logos:drawing" (layer "F.Cu")
+  (footprint "pcb_logos:drawing" locked (layer "F.Cu")
     (tedit 0) (tstamp 2d8af05b-553a-4018-b84f-4a9095ce8759)
-    (at 76.962 99.822)
+    (at 76.9 123)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -6750,9 +6750,9 @@
     )
   )
 
-  (footprint "pcb_logos:candy-simple-clear" (layer "F.Cu")
+  (footprint "pcb_logos:candy-simple-clear" locked (layer "F.Cu")
     (tedit 0) (tstamp 5a19f427-87b1-4f34-9dd6-42d8fb90e0ac)
-    (at 116.586 72.898)
+    (at 117.6 77.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -8825,9 +8825,9 @@
     )
   )
 
-  (footprint "pcb_logos:simple_tower_7x7" (layer "F.Cu")
+  (footprint "pcb_logos:simple_tower_7x7" locked (layer "F.Cu")
     (tedit 0) (tstamp 6d251231-e06e-40f2-b943-fb5b45d3033e)
-    (at 77.216 111.252)
+    (at 77 112.5)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -11237,9 +11237,9 @@
     )
   )
 
-  (footprint "pcb_logos:tower-complex-gold" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-gold" locked (layer "F.Cu")
     (tedit 0) (tstamp 7f0eaff5-a4c3-47aa-b62c-184cbceb2e95)
-    (at 90.654962 86.684281)
+    (at 89.4 91.54)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -15296,9 +15296,9 @@
       (net 79 "Net-(TP15-Pad1)") (pinfunction "DIN") (pintype "input") (tstamp 429bab96-db96-4af3-8a00-8c14046fa98f))
   )
 
-  (footprint "pcb_logos:candy-simple-gold" (layer "F.Cu")
+  (footprint "pcb_logos:candy-simple-gold" locked (layer "F.Cu")
     (tedit 0) (tstamp a3bdd615-7c42-44ba-995a-01623a9c8d33)
-    (at 96.254379 72.894768)
+    (at 95.25 77.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -17442,9 +17442,9 @@
     (pad "" np_thru_hole circle locked (at 0 0) (size 6 6) (drill 6) (layers *.Cu *.Mask) (tstamp fbff6640-587e-4925-bc92-75054710bdc6))
   )
 
-  (footprint "pcb_logos:tower-complex-clear" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-clear" locked (layer "F.Cu")
     (tedit 0) (tstamp a4e4b74f-6368-4f95-b9c3-a6516310f2f9)
-    (at 110.722834 86.879447)
+    (at 111.7 91.54)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -19047,9 +19047,9 @@
     )
   )
 
-  (footprint "pcb_logos:tower-complex-white" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-white" locked (layer "F.Cu")
     (tedit 0) (tstamp ba54835b-66e2-4f80-973a-498a3ca5c727)
-    (at 43.45 87.376)
+    (at 43.45 91.54)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -20698,7 +20698,7 @@
 
   (footprint "pcb_logos:tower-complex-light-green-stars" locked (layer "F.Cu")
     (tedit 0) (tstamp d22b64e3-6595-4c58-bf4f-ed2f8671ac13)
-    (at 55.1 114)
+    (at 55.225 114)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -23006,9 +23006,9 @@
     )
   )
 
-  (footprint "pcb_logos:tower-complex-light-green" (layer "F.Cu")
+  (footprint "pcb_logos:tower-complex-light-green" locked (layer "F.Cu")
     (tedit 0) (tstamp e3506378-4326-4d99-8318-e6e16e4e38eb)
-    (at 66.294 86.868)
+    (at 66.3 91.54)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
@@ -24523,9 +24523,9 @@
       ) (layer "F.Cu") (width 0.01) (fill solid) (tstamp f7811b5b-94e6-4183-844b-abbda3ee679b))
   )
 
-  (footprint "pcb_logos:simple_tower_5x5" (layer "F.Cu")
+  (footprint "pcb_logos:simple_tower_5x5" locked (layer "F.Cu")
     (tedit 0) (tstamp e682d5e3-df52-4a0e-8227-2efdc63cecd4)
-    (at 76.962 119.38)
+    (at 77 103.25)
     (attr through_hole)
     (fp_text reference "Ref**" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.27 1.27) (thickness 0.15)))
