@@ -16,27 +16,30 @@ struct Combo {
 const NUM_OF_LED: u8 = 9;
 
 fn main() {
-    let first_resistor = Resistor { x: 43.1, y: 33.5 };
+    let first_resistor = Resistor { x: 121.5, y: 43.0 };
 
-    let first_led = Led { x: 43.6, y: 35.25 };
+    let first_led = Led { x: 122.0, y: 44.75 };
 
-    let x_difference = first_led.x - first_resistor.x;
+    let y_difference = first_led.y - first_resistor.y;
 
     let first_combo = Combo {
         res: first_resistor,
         led: first_led,
     };
 
-    let last_led = Led { x: 110.4, y: 35.25 };
+    let last_led = Led {
+        x: 112.0,
+        y: 115.25,
+    };
 
-    let led_difference = (last_led.x - first_combo.led.x) / (NUM_OF_LED - 1) as f32;
+    let led_difference = (last_led.y - first_combo.led.y) / (NUM_OF_LED - 1) as f32;
     println!("step betwen leds = {}", led_difference);
 
     for led_num in 0..NUM_OF_LED {
-        let x = first_combo.led.x + (led_num as f32 * led_difference);
-        println!("led{} - x:{} , y:{}", led_num, x, first_combo.led.y);
-        let res_x = x - x_difference;
-        println!("res{} - x:{} , y:{}", led_num, res_x, first_combo.res.y);
+        let y = first_combo.led.y + (led_num as f32 * led_difference);
+        println!("led{} - x:{} , y:{}", led_num, first_combo.led.x, y);
+        let res_y = y - y_difference;
+        println!("res{} - x:{} , y:{}", led_num, first_combo.res.x, res_y);
         println!("");
     }
 }
