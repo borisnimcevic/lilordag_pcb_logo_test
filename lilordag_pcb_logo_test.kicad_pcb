@@ -245,22 +245,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 088f4de8-b03a-47bd-93c4-967738cceb68)
-    (at 132.25 47.5)
+    (at 122 79.95 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/57fd5fbc-28cd-4abc-bbac-b194053876d6")
     (attr smd)
-    (fp_text reference "D12" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D12" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2e73ee09-40fe-4047-8beb-fce82081960b)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9f9170a-86de-46aa-8d7c-63bcf2997eae)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 1f31a3b2-2dbe-4798-a098-d33dc43ea86e)
     )
@@ -276,9 +276,9 @@
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 6538625b-02ec-45fd-94e6-0ceb14518327))
     (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp 9abf270f-d5c4-4d37-8d5a-5d0e98c141ed))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp b83ba1ec-a505-4785-9e37-e3abf5efa288))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 70 "Net-(D10-Pad1)") (pinfunction "K") (pintype "passive") (tstamp df202849-9013-4d15-bc77-61cf1f0e03d2))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(D12-Pad2)") (pinfunction "A") (pintype "passive") (tstamp c872ffc6-8755-4bec-9b16-867490d7bc37))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -421,22 +421,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 0f1bec3e-7d8b-4e9f-ad0c-ba237b051dfd)
-    (at 137.5 39)
+    (at 122 53.55 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/19cfdbbe-2db0-4401-8469-400820a5ba2c")
     (attr smd)
-    (fp_text reference "D30" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D30" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3e11bcb5-1688-4009-b52a-4660e7c546cf)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c0fb4b6-5202-40b1-9b7e-26307c7d8df8)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp c4e6a16c-1ea9-47e3-ac50-c5ca5512d7d5)
     )
@@ -452,9 +452,9 @@
     (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp 82d0f60f-ff7e-4251-a187-aaa85c9e5567))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp a3d643ee-cd47-45f6-a0be-71cef79b011f))
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp ea648037-fa18-4286-8186-57e96da4e78f))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "GND") (pinfunction "K") (pintype "passive") (tstamp a8d42a80-57a9-4caa-be41-6d408b878569))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 40 "Net-(D30-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 87da46f5-6eca-44bf-a2da-d645321b41e2))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2799,22 +2799,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 244bebc2-7d17-4204-bf89-8715e7ba423a)
-    (at 132.25 54.75)
+    (at 122 115.25 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/3ea124ce-6946-4353-a7ef-7725dfdfefe3")
     (attr smd)
-    (fp_text reference "D14" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D14" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9a5e8aa2-ea3d-45dc-afba-a776e2734c31)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1261a0d8-0c80-406b-8b22-08ca568a3a0a)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp fa4b4a42-b171-4067-9902-db1003f2399b)
     )
@@ -2830,9 +2830,9 @@
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp 9daa559f-fcf1-4d2b-846b-9b52451682a4))
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp d15014ac-8cfb-47ae-8a68-b62b1b55e7f0))
     (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp f9d3a5da-afc2-4db4-8643-99713e993bad))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 70 "Net-(D10-Pad1)") (pinfunction "K") (pintype "passive") (tstamp b1ac636f-4b5f-4535-bebe-7145baae2d81))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "Net-(D14-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 9164e710-1dab-402e-98ce-f1249f5fb207))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -6657,22 +6657,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 305c0044-155d-4766-98b5-3bd5e22f2233)
-    (at 132 39)
+    (at 122 44.75 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/6ed1d37e-9a92-4615-a215-e35e9db31358")
     (attr smd)
-    (fp_text reference "D10" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D10" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9d16860c-ce07-4231-bc35-17d1646792ce)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 18382222-33f5-41f4-b025-9682c66a3705)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp be40e886-3f02-4c11-94b7-050feb87bf6f)
     )
@@ -6688,9 +6688,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 755db4d3-3686-4982-b125-9a5c3cc3f2f5))
     (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp 859f0dfb-a66d-4e61-a8f4-c97bfcbfae69))
     (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp 8b31e36a-4324-479c-a4bd-544e4eb215f6))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 70 "Net-(D10-Pad1)") (pinfunction "K") (pintype "passive") (tstamp ec3a63f0-14cc-4f19-8103-8bc64f8a363c))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "Net-(D10-Pad2)") (pinfunction "A") (pintype "passive") (tstamp f81b8da5-b61e-42ef-b3ab-88d179cb0146))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -6743,22 +6743,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 3a0bd0a2-6ec7-4a1c-95d3-c0213f46c9f3)
-    (at 142 35.5)
+    (at 121.5 60.6 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/50499b08-9d8c-429c-a43e-296ac4c998cb")
     (attr smd)
-    (fp_text reference "R15" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R15" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 90af378e-46a3-484a-90ef-53acd0346cf9)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d428c043-7bdf-4cf0-86ba-ce3be452298d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp ef06c5a1-85c7-4e1a-9bdc-0e1e3859288e)
     )
@@ -6772,9 +6772,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp a1be618c-9d85-4e42-a99d-ee2f6f89c0d2))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp dcbd3a27-28f4-4db1-ba01-804084505f5f))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp f0770986-b48c-40ad-a4cf-e94b0ea10e7a))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "+3.3V") (pintype "passive") (tstamp 9070bf2c-10b3-4eea-b781-cc50f9af993e))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(D11-Pad2)") (pintype "passive") (tstamp d743a3f5-a74b-48d3-84c0-612ebb7f3d4b))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7048,22 +7048,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 48d15d3a-1dae-47ef-844d-70e6fa0bc3ae)
-    (at 137.5 47.5)
+    (at 122 88.75 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/ac5cf3ef-a975-4210-b9cc-1f4ac33f9983")
     (attr smd)
-    (fp_text reference "D32" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D32" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp db53f260-356d-42b5-ba8f-222240d4a49b)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 177cd2bd-dd7d-4f1e-8d40-55e46dbbf6d7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp f4309f83-5d43-45d1-8f81-a5f766ee0bfd)
     )
@@ -7079,9 +7079,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 96a6de70-5d46-4ff5-ada8-df76146e2fbb))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp a23a9b85-be37-4a4f-974c-7e425fb41f1f))
     (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp fb931ff2-3baf-4f42-b446-60a54b115619))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "GND") (pinfunction "K") (pintype "passive") (tstamp 18a407f8-b039-41c1-825b-3367b55c517f))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(D32-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 2d61043c-e402-4151-af15-040ee637f6f7))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -7187,22 +7187,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 520c87fe-077a-4532-968d-fc036e9dcfea)
-    (at 146.875 39)
+    (at 122 71.15 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/eeabbbac-488c-43c7-ae73-e9d8f102a973")
     (attr smd)
-    (fp_text reference "D31" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D31" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d88fca8e-2af3-4626-a935-1a3eced93a33)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp fea7d6f2-a163-432e-aa43-ad727e07c247)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 22c3ccf2-063b-4039-857c-e207dbb04609)
     )
@@ -7218,9 +7218,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 7fe0df96-cb8a-475d-bc28-5ce044745f54))
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp b12e4567-5429-43e5-8f32-67d08cead704))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp e60c869b-b3b9-4c71-9aad-5bb6feb7afb6))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "GND") (pinfunction "K") (pintype "passive") (tstamp 7aa31491-89e1-42b6-a104-0c643853c0c1))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(D31-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 8a3a2004-8ff1-4825-8ba9-4abb8b1f9587))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -8279,22 +8279,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 5a9cfb8e-64a1-4f17-9751-cbc22344005f)
-    (at 142 39)
+    (at 122 62.35 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/4b52a058-d061-4795-ac56-bc3f84bd89fb")
     (attr smd)
-    (fp_text reference "D11" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D11" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 05f2cdf9-2935-48ba-a438-daa9da7ab9d6)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9d43913c-16ce-4ab8-b3f6-9240c24da1c7)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp a1639a53-691b-4446-8bad-c6a9377f8488)
     )
@@ -8310,9 +8310,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp ca240981-527a-45b0-bbb0-5ef03b2aaf8c))
     (fp_line (start 0.8 -0.4) (end -0.5 -0.4) (layer "F.Fab") (width 0.1) (tstamp cf2c08ff-5426-4f06-81c2-9435a8acdabb))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp f09e15c2-fff2-482e-9357-1f115ebb31d0))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 69 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 1446e004-0eb4-4776-95aa-27079a424496))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 8 "Net-(D11-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 7e63e46d-b310-452a-8743-eaa065d25249))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -9353,22 +9353,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp 6d220c83-47a2-433d-a49b-7161fc5bbb83)
-    (at 146.75 47.5)
+    (at 122 106.35 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/00db5507-d465-418a-8b79-fc7df8f30d36")
     (attr smd)
-    (fp_text reference "D33" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D33" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f10b73f9-3997-4694-957d-54ec7654391a)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0ce7796a-a3c8-4f24-b600-4a16e33dae64)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp e3fc857f-b153-4ab3-961b-9e5396c3ede6)
     )
@@ -9384,9 +9384,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 827a9cfe-3c4d-425d-88eb-d51617c80a01))
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp b637d8dd-7df0-491f-b020-6c54c7a1ce0a))
     (fp_line (start -0.5 -0.4) (end -0.8 -0.1) (layer "F.Fab") (width 0.1) (tstamp e730abd6-c703-4bc7-8fb6-9442f447e6d6))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 15 "GND") (pinfunction "K") (pintype "passive") (tstamp 3637c8cd-bba3-4a54-b22e-99f31a0093af))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 43 "Net-(D33-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 5a347a8f-afd2-403a-9346-ddc2b311cb3e))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -15109,22 +15109,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 8f62ea79-8801-4325-9510-fc230efc4f29)
-    (at 132.25 51.25)
+    (at 121.5 113.5 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/39ea1eef-7752-4e1c-97ea-5c0923fcb4f4")
     (attr smd)
-    (fp_text reference "R18" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R18" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp aed77263-2e89-4586-ad74-97f2914482de)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41f24807-b956-432e-b549-0e648870b181)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 7efa0572-deb0-4672-9e41-55b2eee510fc)
     )
@@ -15138,9 +15138,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 397a3015-a264-4c1e-a61a-b4c07b663561))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp e950900d-abe6-4edf-9c1b-595f27aaeef0))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp faf3937a-b6ab-4577-b9e7-c1283e344787))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "+3.3V") (pintype "passive") (tstamp ae1edab1-8526-4f14-a501-f0174444a78e))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 27 "Net-(D14-Pad2)") (pintype "passive") (tstamp c7b7b312-a2d5-4e4e-9386-e9bf44fb1018))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -15265,22 +15265,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 963158da-4e56-4bfb-a3c3-ca707ea7e3fb)
-    (at 132.25 44.25)
+    (at 121.5 78.2 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/11cadac6-01f2-4a40-b109-d9b8d3305601")
     (attr smd)
-    (fp_text reference "R16" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R16" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 55e1e81c-81c8-4395-8558-317c5ae73900)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 116ba56a-dbc3-4758-8294-d522aef80bf2)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 1b257597-2ede-4758-8576-2a29c07d348a)
     )
@@ -15294,9 +15294,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 059d571a-41c5-4374-9fa6-b5ba9603f406))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 5e2ab8a7-88c8-4230-885b-017af7124530))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp b7dc717a-728f-4b34-bfb1-dc610c50f427))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "+3.3V") (pintype "passive") (tstamp 76bec925-ddfe-4bb7-bce0-685268eba820))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 26 "Net-(D12-Pad2)") (pintype "passive") (tstamp 713b0b7b-9251-4df6-b892-e0b19db991a0))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -16158,22 +16158,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp 9a5b526f-aed1-4086-815f-b2bb5db921cc)
-    (at 137.5 35.5)
+    (at 121.5 51.8 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/bbe7bcd1-a834-4071-8e2d-10c9267bab95")
     (attr smd)
-    (fp_text reference "R36" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R36" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e81e97e2-23c8-4e74-b56e-f73de6714832)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f8a4261-70aa-4386-8aac-25aa470af2a9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 555d17f2-f0f8-4891-be11-5b58222018a5)
     )
@@ -16187,9 +16187,9 @@
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 1875e347-64b0-416f-99ba-0d093ccedfd3))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 4a5c7d0c-05fc-40b6-a8b8-ea4443e6e709))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp ac2fede5-ff08-48f6-a8d4-9a4688348acc))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 71 "Net-(Q4-Pad3)") (pintype "passive") (tstamp c001aa92-024a-480f-b113-a23c6042f82f))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 40 "Net-(D30-Pad2)") (pintype "passive") (tstamp 7b8901b1-2f04-4d3e-8559-0a33c45fd02b))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -16335,22 +16335,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a204d324-8fec-4de2-af14-3930765b309b)
-    (at 142 44)
+    (at 121.5 95.8 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/f5eae6e6-7c0f-493f-bb79-9ee06dc02573")
     (attr smd)
-    (fp_text reference "R17" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R17" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 047ad074-0dc8-432b-a668-0fc1e697535f)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7e2d9a5a-0ebf-44b7-be0b-475efda9a0dd)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 68f7c7b4-fabf-4340-bad4-26f817ec9a79)
     )
@@ -16364,9 +16364,9 @@
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 34af3eb7-0573-48af-974c-61937a222614))
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp d189f15f-ef57-4fac-8164-47480057bd68))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp fe853d2f-f6fb-4a42-940a-0c833472bcf7))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "+3.3V") (pintype "passive") (tstamp 8a7d226c-50ed-471f-80ef-999d1c873a04))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "Net-(D13-Pad2)") (pintype "passive") (tstamp ce6f2e38-53ce-417b-933b-98e0d1f33d5a))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -16419,22 +16419,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp a3144207-4b8a-4660-8409-594461ccb76f)
-    (at 137.5 44)
+    (at 121.5 87 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/e21f5b5d-ce90-44fd-a305-4489e1deb60a")
     (attr smd)
-    (fp_text reference "R38" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R38" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 1bc4bbb9-e180-48cc-91a9-91192583bbad)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b0ebeb56-9881-42b0-ad9f-c7f46419b17b)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 2a0fe094-6664-4109-b4db-eb534409afb1)
     )
@@ -16448,9 +16448,9 @@
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 278d26d7-1733-4b9e-bd3b-5eb09312cce3))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 68d7f841-5636-4ade-9e6a-b7e048096348))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 8bdbf4a4-2997-46d0-9b5f-3ccd6ad29334))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 71 "Net-(Q4-Pad3)") (pintype "passive") (tstamp 40aa805c-05f8-4c46-a229-4db898e2a562))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 42 "Net-(D32-Pad2)") (pintype "passive") (tstamp 734daed1-95c3-4314-85ed-1b139f16b4fa))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -20166,22 +20166,22 @@
 
   (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEF1) (tstamp aa5d71eb-c4c6-47cc-952b-5ae32461ff05)
-    (at 142 47.5)
+    (at 122 97.55 45)
     (descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "LED handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/78db4899-34dc-45fe-ab65-fe9fc255edfd")
     (attr smd)
-    (fp_text reference "D13" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "D13" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 6da31b06-fb77-4813-81a4-a8f57543f6e0)
     )
-    (fp_text value "RED" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "RED" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 72f547b9-1801-45b1-a698-8f53b359a0b9)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp c5e8ad25-8112-4c51-90a5-13cea9821556)
     )
@@ -20197,9 +20197,9 @@
     (fp_line (start 0.8 0.4) (end 0.8 -0.4) (layer "F.Fab") (width 0.1) (tstamp 8599c26b-0118-4d4c-bf9d-aae206f7fd77))
     (fp_line (start -0.8 0.4) (end 0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp aa8502c7-5019-470f-a53e-a73621609f6c))
     (fp_line (start -0.8 -0.1) (end -0.8 0.4) (layer "F.Fab") (width 0.1) (tstamp ac1fba61-4ff7-45fd-a58a-da3b2b35a281))
-    (pad "1" smd roundrect (at -0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 69 "Net-(D1-Pad1)") (pinfunction "K") (pintype "passive") (tstamp 2aec33ea-0ac2-464f-a242-90951cc3bd4e))
-    (pad "2" smd roundrect (at 0.875 0) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.875 0 45) (size 1.05 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 9 "Net-(D13-Pad2)") (pinfunction "A") (pintype "passive") (tstamp 899d97a5-c916-45aa-846b-725132d962f4))
     (model "${KICAD6_3DMODEL_DIR}/LED_SMD.3dshapes/LED_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -20296,22 +20296,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp b534edc9-0ef2-4ddf-8a91-bc2f336f6e20)
-    (at 146.75 35.5)
+    (at 121.5 69.4 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/af68afe9-2caf-402c-abb9-f9f6963fe57c")
     (attr smd)
-    (fp_text reference "R37" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R37" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp b4fce3b3-c6f1-4c75-b79a-204d0a8b2acc)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp cd9ff485-ab87-44b4-add2-a16fb17c1779)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 2b517551-7805-409a-a546-2362962db842)
     )
@@ -20325,9 +20325,9 @@
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 7fbcd0af-61f0-4334-90ca-b31dc37fce38))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp b9a7a8dd-4b0e-48d9-8d8b-38467a8815f8))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp c9ca7fe0-f945-4325-9fd2-b56fbdc0f8cc))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 61 "Net-(Q3-Pad3)") (pintype "passive") (tstamp c350e123-012e-47aa-b4e7-e0374aede5a2))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 41 "Net-(D31-Pad2)") (pintype "passive") (tstamp f279a0e1-5210-4ec1-922a-3e85d27d4ebc))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -22069,22 +22069,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp ca469ce3-c238-4785-8222-361cb305476b)
-    (at 146.75 44)
+    (at 121.5 104.6 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/0b1e8854-e9c5-48c4-9a9d-aff3bb808629")
     (attr smd)
-    (fp_text reference "R39" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R39" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 63796bda-0485-4281-8459-a293b4954851)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp f14141ae-4776-4f4d-8212-d10f5d9fa618)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 760dff25-2962-4813-a885-6209ab26d986)
     )
@@ -22098,9 +22098,9 @@
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp a1391301-e970-43a6-a462-8521a90ed50b))
     (fp_line (start 0.8 0.4125) (end -0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp e5ccbbf9-c3ff-4650-a4f0-6e3b02a9a672))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp f63170c8-afcb-4834-99ea-8080b7b8c420))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 61 "Net-(Q3-Pad3)") (pintype "passive") (tstamp 9c7c369e-858f-4d6a-b2c0-89661e1652c2))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 43 "Net-(D33-Pad2)") (pintype "passive") (tstamp eee703ba-a3b8-4e5d-b0eb-65d56ae92a5b))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
@@ -26761,22 +26761,22 @@
 
   (footprint "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tedit 5F68FEEE) (tstamp e8e23a1a-fa33-4d4a-b764-9e8dbba78b09)
-    (at 132 35.5)
+    (at 121.5 43 45)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "Sheetfile" "leds.kicad_sch")
     (property "Sheetname" "LEDs")
     (path "/ade9b4e0-52ce-45cf-8825-c35ed92dd0f1/1cc1a89d-81d6-4acd-925d-0c72be276366")
     (attr smd)
-    (fp_text reference "R14" (at 0 -1.43) (layer "F.SilkS")
+    (fp_text reference "R14" (at 0 -1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e45ab1fa-2dbb-4ff2-b8eb-622e20d37abe)
     )
-    (fp_text value "470" (at 0 1.43) (layer "F.Fab") hide
+    (fp_text value "470" (at 0 1.43 45) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ff98c837-d2d6-4995-8aff-d72c8bca1807)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
+    (fp_text user "${REFERENCE}" (at 0 0 45) (layer "F.Fab") hide
       (effects (font (size 0.4 0.4) (thickness 0.06)))
       (tstamp 797ae4c9-a64f-4c1c-b2e9-4022eb796c00)
     )
@@ -26790,9 +26790,9 @@
     (fp_line (start -0.8 -0.4125) (end 0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 39c10131-c5be-448b-ad1a-45241c862382))
     (fp_line (start -0.8 0.4125) (end -0.8 -0.4125) (layer "F.Fab") (width 0.1) (tstamp 64887a39-9c79-435c-9b0a-2246d44664f0))
     (fp_line (start 0.8 -0.4125) (end 0.8 0.4125) (layer "F.Fab") (width 0.1) (tstamp 9a8c13bb-ed70-48c5-b8c4-0649937e2216))
-    (pad "1" smd roundrect (at -0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "1" smd roundrect (at -0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 16 "+3.3V") (pintype "passive") (tstamp 5492be95-5ab4-4c93-82f9-641d5a7cd557))
-    (pad "2" smd roundrect (at 0.9125 0) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
+    (pad "2" smd roundrect (at 0.9125 0 45) (size 0.975 0.95) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 25 "Net-(D10-Pad2)") (pintype "passive") (tstamp ee020c73-ca7e-466f-b62d-5706784eb4d4))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.wrl"
       (offset (xyz 0 0 0))
