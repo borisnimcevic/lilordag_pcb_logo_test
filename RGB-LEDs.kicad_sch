@@ -6,7 +6,8 @@
 
   (title_block
     (title "WS2812B connectons")
-    (date "2022-11-01")
+    (date "2023-01-12")
+    (rev "1.0")
   )
 
   (lib_symbols
