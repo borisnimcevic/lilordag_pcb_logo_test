@@ -40,3 +40,6 @@ grbr/
 
 # Rust
 target/
+
+# Random
+private/
